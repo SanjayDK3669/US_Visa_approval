@@ -1,7 +1,9 @@
 .env
 myvenv311
+myvenv310
 *.egg_info
 
+notebook
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
