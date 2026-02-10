@@ -3,7 +3,12 @@ myvenv311
 myvenv310
 *.egg_info
 
-notebook
+notebook/catboost_info
+notebook/mongodb_demo.ipynb 
+notebook/EasyVisa.csv 
+
+
+artifact 
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
