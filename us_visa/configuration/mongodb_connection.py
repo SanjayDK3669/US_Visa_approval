@@ -22,7 +22,7 @@ class MongoDBClient:
         try:
             if MongoDBClient._client is None:
                 # mongo_db_url = os.getenv(MONGODB_URI)
-                mongo_db_url=""
+                mongo_db_url="mongodb+srv://dksanjay39_db_user:F9jALkbPx2awAvC0@cluster0.jnt3sao.mongodb.net/?appName=Cluster0"
 
                 if mongo_db_url is None:
                     raise Exception(f"Environment Key: {MONGODB_URI} is not set.")
